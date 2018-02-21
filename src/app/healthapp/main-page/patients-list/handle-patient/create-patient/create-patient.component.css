@@ -1,0 +1,8 @@
+.checkbox:checked+span:before, .radio:checked+span:before{color: #4F5F6F;}
+.info{
+  font-size: 12px;
+  font-style: italic;
+}
+.title-block{
+  padding-bottom: 0;
+}

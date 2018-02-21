@@ -1,0 +1,24 @@
+<!--HEADER-->
+<header class="header">
+  <div class="header-block header-block-search">
+    <a
+      class="btn-sm btn btn-primary"
+      [routerLink]="['/healthapp', 'create']"
+    >
+      <b>New Patient</b></a>
+  </div>
+  <div class="header-block header-block-nav">
+    <ul class="nav-profile">
+      <li class="profile dropdown" idoDropmenu>
+        <a class="nav-link dropdown-toggle" role="button">
+                                <span class="name">
+                                    {{ user.name }}
+                                </span>
+        </a>
+        <div class="dropdown-menu profile-dropdown-menu">
+          <a class="dropdown-item" (click)="onLogout()">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</header>

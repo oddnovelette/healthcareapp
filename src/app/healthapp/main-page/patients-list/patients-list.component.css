@@ -1,0 +1,6 @@
+.sidebar{
+  background: #F0F3F6;
+  border-right: solid 1px #D7DDE4;
+}
+.sidebar a {color: #4F5F6F;}
+.sidebar a:hover {background-color: #4F5F6F;}
